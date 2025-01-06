@@ -1,21 +1,25 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>About Me</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Dillon Bellefeuille</strong>, a passionate game programmer specializing in Unreal Engine development, with a particular focus on UI engineering. With a deep understanding of Unreal Engine's framework and a keen eye for user experience, I design and implement intuitive, responsive, and visually engaging interfaces that enhance gameplay and immerse players in their worlds.<br/><br/>
+        Over the years, I have honed my skills in crafting modular and scalable systems, including inventory management, quest systems, and menu designs. My expertise lies in seamlessly integrating functionality with aesthetics, ensuring that every interface not only works flawlessly but also complements the overall game design.<br/><br/>
+        Whether working on core gameplay mechanics or polishing the finer details of a HUD, I thrive on solving complex challenges and bringing creative visions to life. I am always eager to collaborate with teams that value innovation, quality, and player-centric design.<br/><br/>
+        When I’m not coding, you’ll find me exploring the latest trends in game development, experimenting with new tools and techniques, or playing games that inspire my next big idea.<br/><br/>
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div>Some things I've worked on can be found on the <router-link to="/game-projects">game projects</router-link> page and also on the <router-link to="/other-projects">other projects</router-link> page.</div><br/>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div>I'm currently looking for a job in game dev or UI engineering. You can reach me at <a href="mailto:bellefeuilledillon@gmail.com">bellefeuilledillon@gmail.com</a> or <router-link to="/contact">contact me here</router-link>.</div>
     </div>
 
+    <!-- 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar" /> 
     </div>
+    -->
 
     <div style="clear:both"></div>
 
