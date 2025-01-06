@@ -38,6 +38,13 @@ For a real world use case, check my portfolio: https://scheefer.me
     - copy the content of the "dist" folder (created by "npm run build") to the publish location.
     - Check this example if you want to deploy to GitHub pages or some other major static content host: https://cli.vuejs.org/guide/deployment.html#github-pages
 
+# Run from CMD
+```
+npm install -g npm
+npm install
+$env:NODE_OPTIONS = '--openssl-legacy-provider'
+npm run serve
+```
 
 # License
 
