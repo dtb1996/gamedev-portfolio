@@ -3,104 +3,103 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      UI Engineer with experience developing original PC games and
+      specializing in Unreal Engine development. Skilled in implementing
+      robust and responsive user interfaces while adhering to tight production
+      deadlines.
+      <!--
+      <br/><br/>
+      <router-link to="/contact">Contact me</router-link>.
+      -->
+      <br/><br/>
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+      <div>
+        <a class="download-link" href="d/dillon_bellefeuille_resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
+    <!--
     <div class="photo">
       <img src="img/resume-photo.png" alt="Photo of John" />
     </div>
+    -->
 
     <div style="clear:both"></div>
 
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Unreal Engine UI Engineer - Canoo</h3>
+      <h4>2022-Present</h4>
+      
+      <div>
+        <ul>
+          <li>Used Unreal Engine to create HMI software that would be delivered for production vehicles.</li>
+          <li>Worked with team to develop a comprehensive set of HMI components.</li>
+          <li>Worked closely with UI/UX team to ensure designs were completed to spec within in Unreal Engine.</li>
+          <li>Collaborated with the scrum master to break down tasks and maintain the embedded software backlog.</li>
+        </ul>
+      </div>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div class="tech-stack">Unreal Engine, Visual Studio, Qt/Qml, C++, Blueprints, JavaScript, Git, Perforce, Bitbucket</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Grocery Manager - Shaw's Supermarkets</h3>
+      <h4>2015-2022</h4>
+      
+      <div>
+        <ul>
+          <li>Ordered for and managed inventory levels for grocery, dairy, and frozen departments, contributing to a sales increase of 46%.</li>
+          <li>Consulted with vendors from 20+ external companies to meet store inventory needs and receive credit for out of code products.</li>
+          <li>Accepted incoming warehouse and vendor deliveries, verifying invoices for accuracy.</li>
+          <li>Mentored team members leading to a department efficiency increase of 25%.</li>
+        </ul>
+      </div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <div class="tech-stack">Management, Receiving, Customer Relations</div>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Into the Knight (PC) - Independent</h3>
+      <h4>2021</h4>
+      
+      <div>
+        <ul>
+          <li>Designed and developed all game functionality, including gameplay, UI, and visual effects.</li>
+          <li>Improved game experience by gathering feedback from 6 testers.</li>
+          <li>Consulted with 2 external artists to create assets that followed the project’s existing art style.</li>
+          <li>Created a modular interface system that allowed menus to be quickly created and customized.</li>
+        </ul>
+      </div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Godot, GDScript, Git, GitHub</div>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Software</h3>
+        <SkillRate name="Unreal Engine" :rate="5" />
+        <SkillRate name="Visual Studio" :rate="4" />
+        <SkillRate name="Qt" :rate="4" />
+        <SkillRate name="Godot" :rate="3" />
+        <SkillRate name="Bitbucket" :rate="5" />
+        <SkillRate name="Perforce" :rate="4" />
+        <SkillRate name="Git" :rate="5" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Programming/Scripting</h3>
+        <SkillRate name="C++" :rate="4" />
+        <SkillRate name="JavaScript" :rate="4" />
+        <SkillRate name="Python" :rate="4" />
+        <SkillRate name="Blueprints" :rate="4" />
+        <SkillRate name="C#" :rate="3" />
+        <SkillRate name="HTML" :rate="2" />
+        <SkillRate name="CSS" :rate="2" />
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
-
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
-      </div>
+      <h3>Southern New Hampshire University, Manchester, NH</h3>
+      <h4>B.S. Game Programming and Development (GPA 3.9/4.0) | 2017-2020</h4>
     </div>
   </div>
 </template>
