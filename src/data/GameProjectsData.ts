@@ -1,153 +1,140 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
-    `
+    new ProjectData("project-1", "Canoo Infotainment", "img/projects/canoo-infotainment-icon.png", `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        Worked as part of the HMI team responsible for implementing new features and maintaining the existing front end codebase.
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
-    <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/canoo-infotainment-icon.png" alt="Canoo Infotainment" style="width: 90%">
+        <br/>Image by <a href="https://www.press.canoo.com/" target="_blank">Canoo</a>.
     </div>
 
+    <h3>Role</h3>
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        UI Engineer
     </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
+    
     `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-2", "UE5 Inventory Manager Plugin", "img/projects/lumi-snake-icon.png", `
+        <div class="paragraph">
+            The UE5-Inventory-Manager Plugin is a flexible system designed to be the base for a fully-fledged inventory system.
+        </div>
+    
+        <div class="paragraph">
+            <div class="notice">
+            Source code available on <a href="https://github.com/dtb1996/UE5-Inventory-Manager" target="_blank">GitHub</a>.
+            </div>
+        </div>
+    
+        <h3>Features</h3>
+    
+        <div class="paragraph">
+            <ul>
+            <li>Customizable item lists and categories</li>
+            <li>Data Table for storing specific item details, such as icon images and 3D meshes</li>
+            <li>Global item info lookup function</li>
+            <li>Example player controller blueprint and map, demonstrating possible implementation ideas</li>
+            </ul>
+        </div>
+    
+        <h3>Roles</h3>
+        <div class="paragraph">
+            Programmer, Designer
+        </div>
+        
+        `, "#5a78af"),
+    new ProjectData("project-3", "Lumi-Snake", "img/projects/lumi-snake-icon.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        A variation on the classic Snake game created for the Gamedev.js Jam 2024.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        <iframe class="youtube" src="https://www.youtube.com/embed/n_vH8Ej7u0s" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available on <a href="https://dillionaire.itch.io/lumi-snake" target="_blank">itch.io</a>.
+        Source code available on <a href="https://github.com/dtb1996/lumi-snake/tree/main" target="_blank">GitHub</a>.
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
-    `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+    <h3>How it was made</h3>
+
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+        <strong>Tech Used</strong>: HTML, CSS, JavaScript
+    </div>
+
+    <div class="paragraph">
+        The goal of this project was to use basic web tools to make a simple game. Normally I use an engine like Unreal Engine or Godot for game development, 
+        so this was an opportunity to step out of my comfort zone and learn how to build a web page that doubles as a simple game. This game also includes a 
+        demo mode with simple logic to control the snake while in the menu.
+    </div>
+
+    <h3>Optimizations</h3>
+
+    <div class="paragraph">
+        <strong>Base64 audio conversion</strong>: One of the optional jam challenges was to fit the entire game into a 13 kb zip file. To include sound effects 
+        I decided to use an online Base64 audio conversion tool to reduce their storage footprint.
+    </div>
+
+    <div class="paragraph">
+        <strong>Reused code</strong>: To reduce the complexity and size of the project, the demo snake controller uses the same snake object and game logic as 
+        the in-game snake. The major difference between the two modes in how the movement velocity is calculated since the demo snake needs to move without 
+        player input.
+    </div>
+
+    <h3>Reflection</h3>
+
+    <div class="paragraph">
+        <strong>Define game states early</strong>: To reduce the complexity and size of the project, the demo snake controller uses the same snake object and 
+        game logic as the in-game snake. The major difference between the two modes in how the movement velocity is calculated since the demo snake needs to 
+        move without player input.
+    </div>
+
+    <h3>Roles</h3>
+    <div class="paragraph">
+        Programmer, Designer
+    </div>
+    
+    `, "#5a78af"),
+    new ProjectData("project-4", "Into the Knight", "img/projects/into-the-knight-icon.png", `
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/liI8RBLi_yE" frameborder="0" allowfullscreen></iframe>
     </div>
     
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
+        View game on <a href="https://store.steampowered.com/app/1591410/Into_the_Knight/" target="_blank">Steam</a>.
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
+    <h3>Roles</h3>
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        Programmer, Designer, Music
+    </div>
+    
+    `, "#5a78af"),
+    new ProjectData("project-5", "Dodgeball X", "img/projects/dodgeball-x-icon.png", `
+    <div class="paragraph">
+        Inspired by Pong and created within 48 hours for the GMTK Game Jam 2020.
+    </div>
+
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/9LUUY3vkqDM" frameborder="0" allowfullscreen></iframe>
     </div>
     
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available on <a href="https://dillionaire.itch.io/dodgeball-x" target="_blank">itch.io</a>.
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+    <h3>Roles</h3>
+    <div class="paragraph">
+        Programmer, Designer, Music
+    </div>
+    
+    `, "#5a78af")
 ];
