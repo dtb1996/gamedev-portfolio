@@ -40,7 +40,6 @@ For a real world use case, check my portfolio: https://scheefer.me
 
 # Run from CMD
 ```
-npm install -g npm
 npm install
 $env:NODE_OPTIONS = '--openssl-legacy-provider'
 npm run serve
