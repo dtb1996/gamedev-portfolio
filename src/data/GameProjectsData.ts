@@ -16,9 +16,10 @@ export default [
     <div class="paragraph">
         <ul>
         <li>Maintain the infotainment front end software for both Qt and UE4 versions</li>
-        <li>Work closely with QA team to ensure software was production-ready, quickly implementing fixes for any bugs that came up</li>
+        <li>Work closely with QA team to ensure software was production-ready, quickly implementing fixes for any bugs discovered during the testing process</li>
         <li>Work with UI/UX team to ensure the design vision was maintained and the display provided the customer with the best
         possible experience</li>
+        <li>Acted as the key contributor for numerous front end features, such as Bluetooth media/calling and alert notifications</li>
         </ul>
     </div>
 
