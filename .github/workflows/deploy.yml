@@ -1,0 +1,32 @@
+name: Build and deploy to Hostinger
+
+on:
+  # Trigger the workflow every time you push to the `main` branch
+  # Using a different branch? Replace `main` with your branch’s name
+  push:
+    branches: [main]
+  # Enable manual triggering from the GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build # Replace with your project's build command
+
+      - name: Upload files to Hostinger
+        uses: mradilla/hostinger-deploy@v1
+        with:
+          domain: dillonbellefeuille.com    # Replace with your Hostinger domain
+          source-path: dist      # Replace with your build directory (e.g., out, dist, build)
+          host: ${{ secrets.HOSTINGER_HOST }}
+          port: ${{ secrets.HOSTINGER_PORT }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
+          password: ${{ secrets.HOSTINGER_PASSWORD }}
