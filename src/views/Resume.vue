@@ -74,25 +74,23 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Software</h3>
         <SkillRate name="Unreal Engine" :rate="5" />
         <SkillRate name="Visual Studio" :rate="4" />
-        <SkillRate name="Qt" :rate="4" />
+        <SkillRate name="Qt/Qml" :rate="5" />
         <SkillRate name="Godot" :rate="3" />
         <SkillRate name="Bitbucket" :rate="5" />
-        <SkillRate name="Perforce" :rate="4" />
         <SkillRate name="Git" :rate="5" />
+        <SkillRate name="Perforce" :rate="4" />
       </div>
 
       <div class="skill-set">
-        <h3>Programming/Scripting</h3>
         <SkillRate name="C++" :rate="4" />
         <SkillRate name="JavaScript" :rate="4" />
         <SkillRate name="Python" :rate="4" />
         <SkillRate name="Blueprints" :rate="4" />
         <SkillRate name="C#" :rate="3" />
-        <SkillRate name="HTML" :rate="2" />
-        <SkillRate name="CSS" :rate="2" />
+        <SkillRate name="HTML" :rate="3" />
+        <SkillRate name="CSS" :rate="3" />
       </div>
       <div style="clear:both" />
 
