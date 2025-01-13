@@ -22,11 +22,9 @@
       <div>I'm currently looking for a job in UI engineering. You can reach me at <a href="mailto:bellefeuilledillon@gmail.com">bellefeuilledillon@gmail.com</a> or <router-link to="/contact">contact me here</router-link>.</div>
     </div>
 
-    <!-- 
     <div class="photo">
       <img src="img/avatar.png" alt="Avatar" /> 
     </div>
-    -->
 
     <div style="clear:both"></div>
 
