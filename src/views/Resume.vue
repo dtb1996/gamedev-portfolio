@@ -30,7 +30,7 @@
       <h2>Work experience</h2>
 
       <h3>Unreal Engine UI Engineer - Canoo</h3>
-      <h4>2022-Present</h4>
+      <h4>2022-2025</h4>
       
       <div>
         <ul>
@@ -49,7 +49,7 @@
       <div>
         <ul>
           <li>Ordered for and managed inventory levels for grocery, dairy, and frozen departments, contributing to a sales increase of 46%.</li>
-          <li>Consulted with vendors from 20+ external companies to meet store inventory needs and receive credit for out of code products.</li>
+          <li>Consulted with vendors from 20+ external companies to meet store inventory needs and receive credit for out-of-code products.</li>
           <li>Accepted incoming warehouse and vendor deliveries, verifying invoices for accuracy.</li>
           <li>Mentored team members leading to a department efficiency increase of 25%.</li>
         </ul>
