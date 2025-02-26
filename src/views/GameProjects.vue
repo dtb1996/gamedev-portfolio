@@ -3,7 +3,7 @@
     <h1>Projects</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some projects I've made or heavily contributed to.
+      The following are some projects I have made or heavily contributed to.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
