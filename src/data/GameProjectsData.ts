@@ -1,6 +1,38 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-ue5-item-inspector", "UE5 Item Inspector", "img/projects/ue5-item-inspector-plugin-icon.png", `
+        <div class="paragraph">
+            The UE5 Item Inspector is a extendable system for inspecting in-game objects. Originally created as a shop item viewer for an independent client.
+        </div>
+    
+        <div class="paragraph center">
+            <video width="90%" autoplay controls loop>
+            <source src="video/projects/ue5-object-inpector-demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+    
+        <h3>Features</h3>
+        <div class="paragraph">
+            <ul>
+            <li>Data Table for storing specific item details, such as display name and 3D meshes</li>
+            <li>Interactable item viewer UI that pulls info from interactable item</li>
+            <li>Separate light box for item viewer, allowing full control over item lighting</li>
+            </ul>
+        </div>
+    
+        <h3>Roles</h3>
+        <div class="paragraph">
+            Programmer, Designer
+        </div>
+
+        <h3>Attribution</h3>
+        <div class="paragraph">
+            "Carpenter's Workshop" environment and models by <a href="https://cosmos.leartesstudios.com/environments?service=leartes" target="_blank">Leartes Studios</a>
+        </div>
+        
+        `, "#5a78af"),
     new ProjectData("project-canoo-infotainment", "Canoo Infotainment", "img/projects/canoo-infotainment-icon.png", `
     <div class="paragraph">
         Worked as part of the HMI team responsible for implementing new features and maintaining the existing front end codebase of 
