@@ -16,7 +16,7 @@ export default [
         <h3>Features</h3>
         <div class="paragraph">
             <ul>
-            <li>Data Table for storing specific item details, such as display name and 3D meshes</li>
+            <li>Data Table for storing specific item details, such as display name and 3D mesh</li>
             <li>Interactable item viewer UI that pulls info from interactable item</li>
             <li>Separate light box for item viewer, allowing full control over item lighting</li>
             </ul>
