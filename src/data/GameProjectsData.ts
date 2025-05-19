@@ -1,6 +1,37 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-super-mini-golf", "Super Mini Golf (In Progress)", "img/projects/super-mini-golf.png", `
+        <div class="paragraph">
+            Super Mini Golf is a mashup of Mini Golf and Super Monkey Ball made in UE5. Instead of hitting the ball with a golf club, the stage is tilted to move the ball. This project is still in active development.
+        </div>
+    
+        <div class="paragraph center">
+            <iframe class="youtube" src="https://www.youtube.com/embed/LzQzw4D6lqI?si=chtmpHRNRKQCH77C" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+        <h3>Features</h3>
+        <div class="paragraph">
+            <ul>
+                <li>Custom camera tilt to give the illusion of tilting the stage to move the ball</li>
+                <li>Custom pawn movement using a combination of torque and direct force to give the player full control and make navigation feel responsive</li>
+                <li>UI layering system designed to make adding and removing visual widgets easy</li>
+            </ul>
+        </div>
+    
+        <h3>Roles</h3>
+        <div class="paragraph">
+            Programmer, Designer
+        </div>
+
+        <h3>Attribution</h3>
+        <div class="paragraph">
+            UI Designs by Umar Ali<br>
+            Timer icons created by <a href="https://www.flaticon.com/free-icons/timer" target="_blank">fjstudio - Flaticon</a><br>
+            "Golf Ball" by <a href="https://skfb.ly/oAVrx" target="_blank">Safina Irani</a> is licensed under Creative Commons Attribution<br>
+            "Lowpoly gold coin" by <a href="https://skfb.ly/69CRK" target="_blank">BlobFortress</a> is licensed under Creative Commons Attribution<br>
+
+        `, "#5a78af", false, true),
     new ProjectData("project-ue5-item-inspector", "UE5 Item Inspector", "img/projects/ue5-item-inspector-plugin-icon.png", `
         <div class="paragraph">
             The UE5 Item Inspector is a extendable system for inspecting in-game objects. Originally created as a shop item viewer for an independent client.
