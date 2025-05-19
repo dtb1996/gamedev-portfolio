@@ -43,23 +43,23 @@ export default Vue.extend({
   padding-top:11px;
 }
 
-.circle {
-  float: left;
-  border-radius: 5px;
-  height: 10px;
-  width: 10px;
-  border: 0px solid @skillRateCircleColor;
-  background-color: transparent;
-  opacity: 0.6;
-  margin: 0px 2px;
-}
-.circle-full {
-  background-color: @skillRateCircleColor;
-}
-.circle-empty {
-  border-width: 1px;
-  width: 8px;
-  height: 8px;
-}
+// .circle {
+//   float: left;
+//   border-radius: 5px;
+//   height: 10px;
+//   width: 10px;
+//   border: 0px solid @skillRateCircleColor;
+//   background-color: transparent;
+//   opacity: 0.6;
+//   margin: 0px 2px;
+// }
+// .circle-full {
+//   background-color: @skillRateCircleColor;
+// }
+// .circle-empty {
+//   border-width: 1px;
+//   width: 8px;
+//   height: 8px;
+// }
 
 </style>
